@@ -21,7 +21,7 @@ def my_task():
         task_id="bash_t2",
         bash_command="echo $HOSTNAME",
 )
+    bash_t1 >> bash_t2
     
 my_task()
 
-bash_t1 >> bash_t2
