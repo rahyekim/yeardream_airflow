@@ -19,5 +19,7 @@ def regist2(name, sex, *args, **kwargs):
     if phone:
         print(phone)
 
-    # data_interval_start= kwargs.get('data_interval_start')
-    # data_interval_end= kwargs.get('data_interval_end')
+    data_interval_start= kwargs.get('data_interval_start')
+    data_interval_end= kwargs.get('data_interval_end')
+    print(data_interval_start)
+    print(data_interval_end)
