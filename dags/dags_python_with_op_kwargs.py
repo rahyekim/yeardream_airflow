@@ -14,8 +14,8 @@ with DAG(
         python_callable=regist2,
         op_args=['hjkim','man','kr','seoul'],
         op_kwargs={'email':'hjkim_sun@naver.com','phone':'010'},
-        data_interval_start= kwargs.get('data_interval_start'),
-        data_interval_end= kwargs.get('data_interval_end')
+        # data_interval_start= kwargs.get('data_interval_start'),
+        # data_interval_end= kwargs.get('data_interval_end')
     )
 
     regist2_t1
