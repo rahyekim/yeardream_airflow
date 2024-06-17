@@ -19,4 +19,3 @@ with DAG(
     
         
     
-    bash_task_2
