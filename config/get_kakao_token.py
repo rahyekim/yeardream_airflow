@@ -1,9 +1,9 @@
 import requests
 # client_id, authorize_code 노출 주의, 실제 값은 임시로만 넣고 Git에 올라가지 않도록 유의
 
-client_id = '0a223cc095b2a394de55f18b0015d5e2'
+client_id = 'tt'
 redirect_uri = 'https://example.com/oauth'
-authorize_code = 'ezPr2vVuvRZtVfKN-KBYv-3gM8-OGrhKB6F_yjCktqMTbOPlkapiGwAAAAQKPXQRAAABkC30P7vkNSpXBP-m7Q'
+authorize_code = 'ss'
 
 
 token_url = 'https://kauth.kakao.com/oauth/token'
